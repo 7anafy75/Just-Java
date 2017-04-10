@@ -1,0 +1,38 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">JustJava</string>
+
+    <string name="name">Name</string>
+    <!--Header text for the list of toppings [CHAR LIMIT=20] -->
+    <string name="toppings">Toppings</string>
+    <!--Thank you message for order summary [CHAR LIMIT=None] -->
+    <string name="whipped_cream">Whipped cream</string>
+    <string name="choclate">Choclate</string>
+    <string name="quantity">Quantity</string>
+
+    <string name="initial_quantity_value">2</string>
+
+    <string name="order">Order</string>
+
+
+
+    <!--
+    Name for the order summary. It will be shown in the format of "Name: Amy" where Amy is the user's name.
+    [CHAR LIMIT=NONE]
+    -->
+    <string name = "order_summary_name">Name: <xliff:g id = "name" example="Amy">%s</xliff:g></string>
+
+
+    <string name="order_summary_whipped_cream">Add Whipped cream<xliff:g id = "addWhippedCream" example="addwhippedcream">%s</xliff:g     ></string>
+
+
+    <string name = "order_summary_quantity">Quantity: <xliff:g id = "quantity" example="2">%s</xliff:g></string>
+
+
+    <string name="thank_you">Thank you!</string>
+
+    <string name = "order_summary_email_subject">Just Java order for <xliff:g id = "name" example="Amy">%s</xliff:g></string>
+    <string name="order_summary_chocolate">Choclate: <xliff:g id="choclate" example="addchoclate">%s</xliff:g></string>
+    <string name="order_summary_price">Price:<xliff:g id="price" example="10$">%s</xliff:g></string>
+
+
+</resources>
